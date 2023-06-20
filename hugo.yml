@@ -4,6 +4,13 @@ title: 'Silas Maughan'
 theme: "PaperMod"
 
 params:
+  homeInfoParams:
+    Title: 'Zao bro'
+    Content: 'Check my stuff out'
+  socialIcons:
+    - name: github
+      url: 'https://github.com/sikorosenai'
+
   cover:
     linkFullImages: true
   
