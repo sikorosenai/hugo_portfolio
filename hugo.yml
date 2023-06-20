@@ -2,3 +2,20 @@ baseURL: 'http://example.org/'
 languageCode: 'en-us'
 title: 'Silas Maughan'
 theme: "PaperMod"
+
+params:
+  cover:
+    linkFullImages: true
+  
+  ShowBreadCrumbs: true
+
+menu:
+  main:
+    - identifier: projects
+      name: Posts
+      url: /posts/
+      weight: 1
+    - identifier: certifications
+      name: Certifications
+      url: /certifications/
+      weight: 2   
